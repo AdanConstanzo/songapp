@@ -41,22 +41,12 @@ audio.src = playlist[0];
 audio.proceed = true;
 
 audio.playIt = function(){
-	 audio.playing = true;
-	  // Show loading animation.
-		var playPromise = audio.play();
-
-		if (playPromise !== undefined) {
-			playPromise.then(_ => {
-				// Automatic playback started!
-				// Show playing UI.
-			})
-			.catch(error => {
-				// Auto-play was prevented
-				// Show paused UI.
-				console.log(error)
-				alert("Something went wrong!");
-			});
-		}
+	 
+	audio.playing = true;
+	 audio.pause();
+	 setTimeout(() => {
+		 audio.play();
+	 }, 100);
 }
 
 audio.stop = function(){
