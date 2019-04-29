@@ -54,7 +54,7 @@ audio.playIt = function(){
 				// Auto-play was prevented
 				// Show paused UI.
 				console.log(error)
-				audio.playIt();
+				alert("Something went wrong!");
 			});
 		}
 }
