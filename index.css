@@ -1,0 +1,58 @@
+@include motion-ui-transitions;
+
+body {
+  background: #009cff;
+}
+
+canvas {
+    position: fixed;
+    right:25%;
+    top: 10%;
+    width:  50%;
+    height:  600px; 
+}
+
+
+
+#hearts{
+    position: fixed;
+    bottom: 1%;
+    left:25%;
+}
+#img1{
+    position: fixed;
+    border-radius:5px;
+    height: 40%;
+    margin-left: 2%;
+    opacity: 1;
+}
+#img2{
+    position: fixed;
+    border-radius:5px; 
+    opacity: 1;
+    margin-left: 80%;
+    height: 40%;
+}
+#img3{
+    position: fixed;
+    border-radius:5px;
+    opacity: 1;
+    margin-left: 2%;
+    top: 55%;
+    height: 40%;
+}
+#img4{
+    position: fixed;
+    border-radius:5px;
+    top: 55%;
+    margin-left: 80%;
+    opacity: 1;
+    height: 40%;
+}
+
+#mid {
+    position: fixed;
+    top:32%;
+    left:38%;
+}
+
